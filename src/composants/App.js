@@ -1,7 +1,12 @@
 import Banner from './Banner'
+import ShoppingList from './ShoppingList'
 
 function App() {
-    return <Banner />
+    return (
+      <div>
+        <Banner />
+        <ShoppingList />
+      </div>)
 }
 
 export default App
