@@ -3,7 +3,7 @@ function Cart() {
   const lierrePrice = 10
   const bouquet_de_fleurPrice = 15
   return (
-    <div>
+    <div className="lmj-cart">
       <h2>Panier</h2>
         <ul>
           <li>Monstera : {monsteraPrice}€</li>
@@ -11,6 +11,7 @@ function Cart() {
           <li>Bouquet de fleur : {bouquet_de_fleurPrice}€</li>
         </ul>
         Total : {monsteraPrice + lierrePrice + bouquet_de_fleurPrice}€
-    </div>)
+    </div>
+  )
 }
 export default Cart
